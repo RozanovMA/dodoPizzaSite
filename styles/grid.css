@@ -1,0 +1,12 @@
+.grid{
+  padding: 10px;
+}
+
+.grid__list{
+display: flex;
+gap: 20;
+}
+
+.grid__list-item{
+
+}
