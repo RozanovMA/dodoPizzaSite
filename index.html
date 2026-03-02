@@ -6,6 +6,7 @@
     <title>попа</title>
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/carousel.css">
     <link rel="shortcut icon" href="img/favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,29 +35,45 @@
         </div>
     </header>
 
-    <nav>
-        <div class="grid">
-            <ul class="grid__list">
-                <li class="grid__list-item"><a class="grid__list-link" href="#pizza">Пицца</a></li>
-                <li class="grid__list-item"><a class="grid__list-link" href="#combo">Комбо</a></li>
-                <li class="grid__list-item"><a class="grid__list-link" href="#snacks">Закуски</a></li>
-                <li class="grid__list-item"><a class="grid__list-link" href="#drinks">Напитки</a></li>
-                <li class="grid__list-item"><a class="grid__list-link" href="#desserts">Десерты</a></li>
-            </ul>
-            <ul>
-            </ul>
-            <!-- <a class="header__button">
-            Корзина
-            </a> -->
-        </div>
-
-    </nav>
-
-    <section class="slider">
-            <div class="slider__container">
-
+    <main>
+        <nav>
+            <div class="grid">
+                <ul class="grid__list">
+                    <li class="grid__list-item"><a class="grid__list-link" href="#pizza">Пицца</a></li>
+                    <li class="grid__list-item"><a class="grid__list-link" href="#combo">Комбо</a></li>
+                    <li class="grid__list-item"><a class="grid__list-link" href="#snacks">Закуски</a></li>
+                    <li class="grid__list-item"><a class="grid__list-link" href="#drinks">Напитки</a></li>
+                    <li class="grid__list-item"><a class="grid__list-link" href="#desserts">Десерты</a></li>
+                    <li class="grid__list-item"><a class="grid__button" href="#desserts">Корзина</a></li>
+                    
+                </ul>
             </div>
-    </section>
+        </nav>
+        <section>
+            <section class="carousel">
+                    <div class="card__groop">
+                        <div class="card">1</div>
+                        <div class="card">2</div>
+                        <div class="card">3</div>
+                        <div class="card">4</div>
+                        <div class="card">5</div>
+                        <div class="card">6</div>
+                        <div class="card">7</div>
+                    </div>
+                    <!-- <div aria-hidden class="card__groop">
+                        <div class="card">1</div>
+                        <div class="card">2</div>
+                        <div class="card">3</div>
+                        <div class="card">4</div>
+                        <div class="card">5</div>
+                    </div> -->
+            </section>
+            <div class="carusel-controller">
+                <button class="scroll__button next__button grid__button">Back</button>
+                <button class="scroll__button back__button grid__button">Next</button>
+            </div>
+        </section>
+    </main>
 
     <script src="scripts/main.js"></script>
 </body>

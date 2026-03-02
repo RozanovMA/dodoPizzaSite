@@ -1,17 +1,22 @@
+a {
+  display: flex;
+}
+
 .grid{
+  display: flex;
   padding-block: 10px;
 }
 
 .grid__list{
-display: flex;
-gap: 20;
+  display: flex;
+  gap: 20;
 }
 
 .grid__list-item{
-font-size: 20px;
-font-weight: 900px;
-padding: 10px;
-margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .grid__list-link:hover{
@@ -22,4 +27,21 @@ margin-left: 20px;
   color: var(--gray);
   transition: color 0.3s;
   letter-spacing: -0.47px;
+}
+
+.grid__button{
+  font-size: 20px;
+  font-family: "DM sans", sans-serif;
+  border-radius: 999px;
+  font-weight: 700;
+  color: white;
+  background: rgb(209, 87, 0);
+  border: 10px solid var(--orange);
+  position: right;   /* относительно ближайшего relative-родителя */
+  right: auto;
+  top: auto;
+}
+
+.grid_button:hover {
+  background: rgb(121, 50, 5);
 }

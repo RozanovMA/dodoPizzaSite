@@ -1,0 +1,46 @@
+.carousel{
+  margin: 40px auto;
+  width: 90%;
+  border: 5px solid red;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar{
+  display: none;
+}
+
+.card__groop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0em;
+  /* animation: spin infinite linear; */
+}
+
+.card{
+  scroll-snap-align: center;
+  flex: 0 0 5em;
+  color: aliceblue;
+  height: 5em;
+  padding: 1em;
+  background-color: black;
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+/* @keyframes spin{
+  from {translate: 0;}
+  to {translate: -100%;}
+} */
+.carusel-controller{
+  display: flex;
+  justify-content: center;
+}
+.scroll__button{
+
+}
