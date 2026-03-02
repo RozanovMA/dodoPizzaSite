@@ -1,5 +1,5 @@
 .grid{
-  padding: 10px;
+  padding-block: 10px;
 }
 
 .grid__list{
@@ -8,5 +8,18 @@ gap: 20;
 }
 
 .grid__list-item{
+font-size: 20px;
+font-weight: 900px;
+padding: 10px;
+margin-left: 20px;
+}
 
+.grid__list-link:hover{
+  color: var(--dark);
+}
+
+.grid__list-link{
+  color: var(--gray);
+  transition: color 0.3s;
+  letter-spacing: -0.47px;
 }
